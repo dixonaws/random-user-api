@@ -7,6 +7,7 @@ virtualenv -p `which python3` venv3 <br>
 source venv3/bin/activate <br>
 pip install chalice
 </code>
+<br>Note that the above command uses a backtick character (`) and <i>not</i> a single quote character (')
 
 ## Create a new project called random-user-api
 <code>
