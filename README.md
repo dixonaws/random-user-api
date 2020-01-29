@@ -20,7 +20,12 @@ chalice local<br>
 curl -X GET http://localhost:8000
 </code>
 
+## Create requirements.txt
+<code>pip freeze > requirements.txt</code>
+
 ## Deploy to API Gateway
+This command will create a deployment package, including all dependencies from requirements.txt, an IAM role, a Lambda function, and an API Gateway endpoint for your program.
+<br>
 <code>
 chalice deploy
 </code>
