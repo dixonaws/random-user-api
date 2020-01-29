@@ -3,7 +3,7 @@ Create an API that generates n number of random users on a JSON object
 
 ## Configure a Python virtual environment and install chalice
 <code>
-virtualenv -p \`which python3\` venv3 <br>
+virtualenv -p `which python3` venv3 <br>
 source venv3/bin/activate <br>
 pip install chalice
 </code>
@@ -23,5 +23,6 @@ curl -X GET http://localhost:80000
 <code>
 chalice deploy
 </code>
+<br>
 
 You should now have an API deployed in AWS that responds to a GET request. You can now develop with this API and run <code>chalice deploy</code> when needed to deploy changes.
