@@ -6,6 +6,8 @@ app = Chalice(app_name='random-user-api')
 
 fake = Faker()
 
+# create an API key and usage plan manually in the AWS console
+# note: this is possible with the boto3 library
 @app.route('/', api_key_required=True)
 def index():
     dict_random_user=generate_user()
