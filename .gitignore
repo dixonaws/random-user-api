@@ -2,3 +2,4 @@
 .chalice/venv/
 .chalice/
 __pychache/
+.idea/
