@@ -21,9 +21,9 @@ def generate_user():
 
     dict_user["first_name"] = lst_name[0]
     dict_user["last_name"] = lst_name[1]
+    dict_user["address"] = fake.address()
 
     lst_gender = ["m", "f"]
-
     dict_user["gender"] = choice(lst_gender)
 
     # Latitudes range from -90 to 90

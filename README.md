@@ -17,7 +17,7 @@ chalice new-project random-user-api
 ## Deploy the API locally and test
 <code>
 chalice local<br>
-curl -X GET http://localhost:80000
+curl -X GET http://localhost:8000
 </code>
 
 ## Deploy to API Gateway
